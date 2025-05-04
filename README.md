@@ -45,7 +45,6 @@ Here’s the final weighted F1-score comparison graph:
   openai_results.csv
   typica_ai_results.csv
 
-typicaai_logo.png
 eval_reproducibility.ipynb
 LICENSE
 README.md
