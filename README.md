@@ -47,38 +47,54 @@ README.md
 
 ## 🚀 How to Run
 
-You can run this notebook manually in Google Colab without using a direct badge link:
+You can run this notebook using the Colab badge, but note that you will need to provide the required `data/` and `pred/` files.
 
-1️⃣ **Download or Clone the Repository**  
-- Download as ZIP and extract, or  
-- Run:  
+1️⃣ **Download the Repository Files**  
+- Download this repository as a ZIP and extract it, or  
+- Clone it using:
 ```bash
 git clone https://github.com/assoudi-typica-ai/darija-toxicity-benchmark.git
 ```
 
-2️⃣ **Open in Google Colab**  
-- Go to [https://colab.research.google.com](https://colab.research.google.com)  
-- Click **File → Upload Notebook**  
-- Select `eval_reproducibility.ipynb` from the downloaded or cloned folder
+---
 
-3️⃣ **Install Requirements**  
-- Colab will auto-install:
-  - pandas
-  - scikit-learn
-  - altair
-- If running locally, install with:
+2️⃣ **Launch Notebook in Colab**
+- Use the Colab badge below:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/assoudi-typica-ai/darija-toxicity-benchmark/blob/main/eval_reproducibility.ipynb)
+
+---
+
+3️⃣ **Upload Required Files in Colab**
+- Once inside Colab, manually upload the contents of:
+  - `/data` → CSV files  
+  - `/pred` → CSV files
+
+You can do this via the **Colab file browser sidebar** → **Upload**.
+
+---
+
+4️⃣ **Install Requirements (Handled in Colab)**
+The notebook automatically installs:
+- pandas
+- scikit-learn
+- altair
+
+If running locally, you can install them using:
 ```bash
 pip install pandas scikit-learn altair
 ```
 
-4️⃣ **Run the Notebook**  
-- Execute cells step by step:
+---
+
+5️⃣ **Run the Notebook**
+- Execute the cells step by step to:
   - Load and clean data
   - Merge predictions
   - Compute evaluation metrics
   - Visualize weighted F1 scores
-  - Export final report
-
+  - Export the final report
+    
 ---
 
 ## 📜 License
