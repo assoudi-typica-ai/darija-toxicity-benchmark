@@ -2,18 +2,14 @@
   <img src="https://raw.githubusercontent.com/assoudi-typica-ai/darija-toxicity-benchmark/main/typicaai_logo.png" alt="Typica.ai Logo" width="200"/>
 </p>
 
-# A Comparative Benchmark of a Moroccan Darija Toxicity Detection Model (Typica.ai) and Major LLM-Based Moderation APIs (OpenAI, Mistral, Claude)
+> **This repository accompanies the paper:**
 
+# A Comparative Benchmark of a Moroccan Darija Toxicity Detection Model (Typica.ai) and Major LLM-Based Moderation APIs (OpenAI, Mistral, Anthropic)
+> Hicham Assoudi  
+> Typica.ai, Montreal, Canada
 ---
 
 ## 📄 Abstract
-
-This repository accompanies the paper:
-
-> **A Comparative Benchmark of a Moroccan Darija Toxicity Detection Model (Typica.ai) and Major LLM-Based Moderation APIs (OpenAI, Mistral, Claude)**  
-> Hicham Assoudi  
-> Typica.ai, Montreal, Canada
-
 This paper presents a comparative benchmark evaluating the performance of Typica.ai’s custom Moroccan Darija toxicity detection model against major LLM-based moderation APIs: OpenAI (omni-moderation-latest), Mistral (mistral-moderation-latest), and Anthropic Claude (claude-3-haiku-20240307).
 
 We focus on culturally grounded toxic content, including implicit insults, sarcasm, and culturally specific aggression often overlooked by general-purpose systems.  
