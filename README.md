@@ -22,6 +22,16 @@ Our results highlight Typica.ai’s superior performance, underlining the import
 
 ---
 
+## 📊 Evaluation Results
+
+Here’s the final weighted F1-score comparison graph:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/assoudi-typica-ai/darija-toxicity-benchmark/main/eval_visualization.png" alt="Evaluation Visualization" width="600"/>
+</p>
+
+---
+
 ## 📦 Repository Contents
 
 ```
