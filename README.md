@@ -4,8 +4,6 @@
 
 # A Comparative Benchmark of a Moroccan Darija Toxicity Detection Model (Typica.ai) and Major LLM-Based Moderation APIs (OpenAI, Mistral, Claude)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/assoudi-typica-ai/darija-toxicity-benchmark/blob/main/eval_reproducibility.ipynb)
-
 ---
 
 ## 📄 Abstract
